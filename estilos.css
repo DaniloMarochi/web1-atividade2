@@ -107,6 +107,16 @@ a {
   background: url("imagens/seta.png") no-repeat 0 center;
 }
 
+.corpo h4 {
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 50%;
+}
+
 .corpo img {
   float: left;
   margin: 10px;
@@ -116,6 +126,11 @@ a {
 .corpo img.secundaria {
   float: right;
   width: 180px;
+}
+
+.corpo img.terciaria {
+  float: center;
+  width: 600px;
 }
 
 .menu h3 {
@@ -147,4 +162,12 @@ a {
 
 .menu li a:hover {
   background-color: #02d700;
+}
+
+.corpo li{
+  margin-bottom: 20px;
+}
+
+.corpo li:first-of-type{
+  margin-top: 20px;
 }

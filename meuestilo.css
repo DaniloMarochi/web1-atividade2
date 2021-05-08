@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    overflow-y: scroll;
+  }
+  
+  body {
+    background-color: #310404;
+    margin: 50px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  .container {
+    background-color: #310404;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cabecalho,
+  .rodape {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .corpo {
+    width: 75%;
+    order: 2;
+    border-right: 1px dashed #000000;
+    padding: 10px;
+  }
+  
+  .menu {
+    width: 25%;
+    order: 3;
+    padding: 5px;
+    font-size: 110%;
+  }
+  
+  .cabecalho {
+    order: 1;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .rodape {
+    order: 4;
+    border-top: 1px solid #000000;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  .cabecalho img {
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .cabecalho h1 {
+    font-size: 180%;
+    text-transform: uppercase;
+    color:#fff;
+  }
+  
+  .cabecalho h2 {
+    font-size: 160%;
+    color:#fff;
+  }
+  
+  .rodape img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .rodape .autor {
+    font-weight: bold;
+    color: #fae528;
+  }
+
+  .rodape p{
+      color: #fff;
+  }
+  
+  .corpo p {
+    text-align: justify;
+    line-height: 150%;
+    text-indent: 3em;
+    color:#fff;
+  }
+  
+  .corpo h3 {
+    text-transform: uppercase;
+    font-size: 110%;
+    /*font-weight: bold;*/
+    border-bottom: 1px dotted #fff;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    width: 50%;
+    background: url("imagens/seta.png") no-repeat 0 center;
+    color:#fff;
+  }
+  
+  .corpo h4 {
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    width: 50%;
+  }
+  
+  .corpo img {
+    float: left;
+    margin: 10px;
+    width: 230px;
+  }
+  
+  .corpo img.secundaria {
+    float: right;
+    width: 180px;
+  }
+  
+  .corpo img.terciaria {
+    float: center;
+    width: 600px;
+  }
+
+  .corpo a{
+      color: #fae528;
+      text-decoration: underline;
+  }
+  
+  .menu h3 {
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .menu h3::before {
+    content: url("imagens/menu.png");
+    margin-right: 5px;
+  }
+  
+  .menu li {
+    border-bottom: 1px solid #000;
+  }
+  
+  .menu li:first-of-type {
+    border-top: 1px solid #000;
+  }
+  
+  .menu li a {
+    padding: 20px;
+    display: block;
+    padding-left: 40px;
+    background: url("imagens/seta.png") no-repeat 20px center;
+  }
+  
+  .menu li a:hover {
+    background-color: #661a1a;
+  }
+  
+  .corpo li{
+    margin-bottom: 20px;
+  }
+  
+  .corpo li:first-of-type{
+    margin-top: 20px;
+  }
